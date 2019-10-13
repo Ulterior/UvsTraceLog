@@ -10,7 +10,8 @@ C++ compatible compiler and make is required.
 $ make clean
 $ make
 ```
-### Running
+
+### Running examples
 
 
 Trace Log to Screen:

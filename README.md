@@ -6,8 +6,6 @@ Template based system log trace library with examples for Screen, File and Tcp l
 
 C++ compatible compiler and make is required.
 
-Install the dependencies and devDependencies and start the server.
-
 ```sh
 $ make clean
 $ make

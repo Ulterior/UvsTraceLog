@@ -11,6 +11,12 @@
 #include <stdexcept>
 #include <unistd.h>
 
+
+//missing flag for MacOs
+#ifndef MSG_NOSIGNAL 
+#define MSG_NOSIGNAL 0x2000 /* don't raise SIGPIPE */
+#endif
+
 template<typename Data>
 class TcpLogger : public ThreadedLogger<Data>
 {
